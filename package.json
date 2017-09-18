@@ -9,10 +9,6 @@
     "express": "^4.15.4",
     "opn": "^5.1.0"
   },
-  "devDependencies": {
-    "@stencil/dev-server": "latest",
-    "@stencil/utils": "latest"
-  },
   "scripts": {
     "start": "clear && node server.js"
   },
@@ -21,9 +17,9 @@
     "url": "git+https://github.com/mitchellsimoens/stencil-boilerplate.git"
   },
   "author": {
-    "name" : "Mitchell Simoens",
-    "email" : "mitchellsimoens@gmail.com",
-    "url" : "https://mitchellsimoens.com/"
+    "name": "Mitchell Simoens",
+    "email": "mitchellsimoens@gmail.com",
+    "url": "https://mitchellsimoens.com/"
   },
   "license": "MIT",
   "bugs": {
