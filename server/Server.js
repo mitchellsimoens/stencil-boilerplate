@@ -78,8 +78,10 @@ class Server {
             rendererConfig : { buildDir }
         } = this;
 
-        app.use('/build', express.static(buildDir));
+        // resolve static assets
+        app.use(express.static(join(__dirname, `../${ root }`)));
 
+        // if no static asset, render as a route
         app.get('/*', (req, res) => {
             logger.debug(`serve: ${req.url}`);
 
