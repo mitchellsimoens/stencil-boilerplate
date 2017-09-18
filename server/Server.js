@@ -1,3 +1,8 @@
+/**
+ * This would be nice if @sencil/dev-server would support
+ * SSR out-of-the-box
+ */
+
 const express                   = require('express');
 const { readFile }              = require('fs');
 const opn                       = require('opn');
