@@ -20,6 +20,12 @@ export class MyApp {
         />
 
         <stencil-route
+          url="/form"
+          exact={true}
+          component="my-form"
+        />
+
+        <stencil-route
           url="/about"
           exact={true}
           component="my-about"

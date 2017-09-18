@@ -85,10 +85,10 @@ class Server {
 
             const filePath = join(__dirname, `../${ root }/index.html`);
 
-            readFile(filePath, 'utf-8', (err, html) => {
-                if (err) {
-                    logger.error(err);
-                    res.send(err);
+            readFile(filePath, 'utf-8', (error, html) => {
+                if (error) {
+                    logger.error(error);
+                    res.send(error);
                 } else {
                     // Render the initial app content through Stencil
                     renderer
@@ -97,7 +97,7 @@ class Server {
                         })
                         .then(results => res.send(results.html));
                 }
-          });
+            });
         });
     }
 
