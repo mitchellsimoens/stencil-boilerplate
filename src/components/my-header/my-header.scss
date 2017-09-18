@@ -1,0 +1,15 @@
+my-header {
+    background: url(/assets/img/icon.png) #e6e6e6 no-repeat;
+    background-size: 50px;
+    background-position: 0 50%;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    padding-left: 25px;
+
+    li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 20px;
+    }
+}

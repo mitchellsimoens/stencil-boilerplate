@@ -1,7 +1,8 @@
 import { Component } from '@stencil/core';
 
 @Component({
-  tag: 'my-header'
+  tag: 'my-header',
+  styleUrl: 'my-header.scss'
 })
 export class MyHeader {
   render () {
