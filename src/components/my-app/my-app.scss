@@ -2,6 +2,14 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+
+    &:visited {
+        color: #0000ff;
+    }
+}
+
 .app-content {
     padding: 0 20px;
 }
