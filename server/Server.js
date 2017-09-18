@@ -5,6 +5,7 @@
 
 const express                   = require('express');
 const { readFile }              = require('fs');
+const nocache                   = require('nocache');
 const opn                       = require('opn');
 const { join }                  = require('path');
 const { build, createRenderer } = require('@stencil/core');
@@ -77,6 +78,9 @@ class Server {
             app, logger, renderer,
             rendererConfig : { buildDir }
         } = this;
+
+        // disable cache (since we are local dev)
+        app.use(nocache());
 
         // resolve static assets
         app.use(express.static(join(__dirname, `../${ root }`)));

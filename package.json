@@ -7,6 +7,7 @@
     "@stencil/core": "next",
     "@stencil/router": "^0.0.12",
     "express": "^4.15.4",
+    "nocache": "^2.0.0",
     "opn": "^5.1.0"
   },
   "scripts": {
