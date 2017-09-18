@@ -1,0 +1,33 @@
+{
+  "name": "stencil-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for StencilJS including support for server-side rendering (SSR).",
+  "main": "server.js",
+  "dependencies": {
+    "@stencil/core": "next",
+    "@stencil/router": "^0.0.12",
+    "express": "^4.15.4",
+    "opn": "^5.1.0"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest"
+  },
+  "scripts": {
+    "start": "clear && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchellsimoens/stencil-boilerplate.git"
+  },
+  "author": {
+    "name" : "Mitchell Simoens",
+    "email" : "mitchellsimoens@gmail.com",
+    "url" : "https://mitchellsimoens.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitchellsimoens/stencil-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mitchellsimoens/stencil-boilerplate#readme"
+}
